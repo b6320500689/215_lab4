@@ -21,8 +21,77 @@ int main()
                     i = 2;
                 }
             }
+            else if (a[m] == 'B')
+            {
+                if (i == 1)
+                {
+                    i = 4;
+                }
+                else if (i == 4)
+                {
+                    i = 1;
+                }
+            }
+            else if (a[m] == 'C')
+            {
+                if (i == 1)
+                {
+                    i = 3;
+                }
+                else if (i == 3)
+                {
+                    i = 1;
+                }
+                else if (i == 4)
+                {
+                    i = 2;
+                }
+                else if (i == 2)
+                {
+                    i = 4;
+                }
+            }
+            else if (a[m] == 'D')
+            {
+                if (i == 1)
+                {
+                    i = 2;
+                }
+                else if (i == 2)
+                {
+                    i = 1;
+                }
+                else if (i == 3)
+                {
+                    i = 4;
+                }
+                else if (i == 4)
+                {
+                    i = 3;
+                }
+            }
+            else if (a[m] == 'E')
+            {
+                if (i == 1)
+                {
+                    i = 4;
+                }
+                else if (i == 4)
+                {
+                    i = 1;
+                }
+                else if (i == 2)
+                {
+                    i = 3;
+                }
+                else if (i == 3)
+                {
+                    i = 2;
+                }
+            }
             printf("%d\n",i);
-        i = 1;
-    }
+        	i = 1;
+    	}
     return 0;
+	}
 }
