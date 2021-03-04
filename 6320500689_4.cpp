@@ -6,5 +6,6 @@ int main()
   char m;
   int i=0,j,k=0;
   scanf("%[^\n]s",s);
+  printf ("%s",s);
   return 0;
 }
