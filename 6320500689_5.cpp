@@ -12,7 +12,7 @@ int main()
         for (m=0; m<strlen(a); m++)
         {
         	scanf ("%s",b);
-        	for (m=0; m<strlen(a); m++)
+        	for (m=0; m<strlen(b); m++)
         	{
             	if (a[m] == 'A')
             	{
