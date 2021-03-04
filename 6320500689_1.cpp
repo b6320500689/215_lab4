@@ -2,14 +2,15 @@
 int main ()
 {
 	int x,y,a,b,c,m,n;
+	
 	if (n>3 && n<1000)
 		scanf ("%d",&x);
-    for (n=0; n<x; x++)
+	
+    for (n=0; n<x; n++)
     {
         scanf ("%d %d %d",&a,&b,&c);
-        n = (a*4)+(b*2)+c;
-        b[m] = n;
+        m = (a*4)+(b*2)+c;
     }
-    printf ("%d %d",);
+    printf ("%d",n);
     return 0;
 }
